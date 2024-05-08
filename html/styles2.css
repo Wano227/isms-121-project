@@ -1,0 +1,45 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1600px;
+    margin: auto;
+    padding: 20px 18px;
+
+}
+
+.gallery img {
+    width: 128%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery::after {
+    content: "This IS GOOD";
+    width: 350px;
+}
+
+p {
+    text-align: center;
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: rgb(16, 52, 171);
+    color: rgb(225, 29, 186);
+    border-bottom: 4px solid #20e357;
+
+}
+
+body {
+    background-color: darkcyan;
+}
+
+
+
